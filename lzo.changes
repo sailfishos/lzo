@@ -1,0 +1,63 @@
+* Wed Jul 28 2010 Yi Yang <yi.y.yang@intel.com> - 2.03
+- Remove 'make check test'
+
+* Mon Jul 26 2010 Yu <yu.a.wang@intel.com> - 2.03
+- Fixed building issue derived from compiler update
+
+* Wed Jun 30 2010 Austin Zhang <austin.zhang@intel.com> - 2.03
+- Fixed building optimization issue derived from compiler update
+
+* Tue Feb 16 2010 Anas Nashif <anas.nashif@intel.com> - 2.03
+- Use spectacle
+
+* Sat Sep 20 2008 Anas Nashif <anas.nashif@intel.com> 2.03
+- initial import into moblin
+
+* Thu May  1 2008 Lubomir Rintel <lkundrak@v3.sk> 2.03-1
+- New upstream release
+- Changed the license to GPLv2+
+
+* Wed Apr  2 2008 Hans de Goede <j.w.r.degoede@hhs.nl> 2.02-5
+- Fix configure failure with -Werror-implicit-function-declaration in CFLAGS
+- Add a minilzo subpackage which contains a shared version of minilzo, to be
+  used by all applications which ship with their own copy of it (bz 439979)
+
+* Tue Feb 19 2008 Fedora Release Engineering <rel-eng@fedoraproject.org> - 2.02-4
+- Autorebuild for GCC 4.3
+
+* Wed Aug 15 2007 Hans de Goede <j.w.r.degoede@hhs.nl> 2.02-3
+- Update License tag for new Licensing Guidelines compliance
+
+* Mon Aug 28 2006 Hans de Goede <j.w.r.degoede@hhs.nl> 2.02-2
+- FE6 Rebuild
+
+* Wed Jul 26 2006 Hans de Goede <j.w.r.degoede@hhs.nl> 2.02-1
+- New upstream release 2.02, soname change!
+
+* Mon Jul 24 2006 Hans de Goede <j.w.r.degoede@hhs.nl> 1.08-7
+- Taking over as maintainer since Anvil has other priorities
+- Add a patch to fix asm detection on i386 (bug 145882, 145893). Thanks to
+  Carlo Marcelo Arenas Belon <carenas@sajinet.com.pe> for the initial patch.
+- Removed unused build dependency on nasm
+- Remove static lib
+- Cleanup %%doc a bit
+
+* Thu Mar 16 2006 Dams <anvil[AT]livna.org> - 1.08-6.fc5
+- Rebuild for new gcc
+
+* Tue Jan 17 2006 Dams <anvil[AT]livna.org> - 1.08-5.fc5
+- Bumped release for gcc 4.1 rebuild
+
+* Sun May 22 2005 Jeremy Katz <katzj@redhat.com> - 1.08-4
+- rebuild on all arches
+
+* Fri Apr  7 2005 Michael Schwendt <mschwendt[AT]users.sf.net>
+- rebuilt
+
+* Sun Apr 27 2003 Dams <anvil[AT]livna.org> 0:1.08-0.fdr.2
+- Typo un devel description
+- Added post and postun scriptlets
+- Added URL in Source0
+
+* Fri Apr 25 2003 Dams <anvil[AT]livna.org>
+- Initial build.
