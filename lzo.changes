@@ -1,3 +1,7 @@
+* Thu Dec 01 2011 Marko Saukko <marko.saukko@cybercom.com> - 2.06
+- Update to version 2.06
+- Removed lzo-2.02-configure.patch
+
 * Wed Jul 28 2010 Yi Yang <yi.y.yang@intel.com> - 2.03
 - Remove 'make check test'
 
