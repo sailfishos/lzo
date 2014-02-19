@@ -14,6 +14,7 @@ License:    GPLv2+
 URL:        http://www.oberhumer.com/opensource/lzo/
 Source0:    http://www.oberhumer.com/opensource/lzo/download/%{name}-%{version}.tar.gz
 Source100:  lzo.yaml
+Patch0:     lzo-2.06-aarch64.patch
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 BuildRequires:  pkgconfig(zlib)
@@ -56,6 +57,8 @@ This package contains development files needed for lzo.
 %prep
 %setup -q -n %{name}-%{version}
 
+# lzo-2.06-aarch64.patch
+%patch0 -p1
 # >> setup
 # << setup
 

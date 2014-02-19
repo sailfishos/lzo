@@ -1,3 +1,6 @@
+* Wed Feb 19 2014 Oleg Girko <oleg.girko@jolla.com> - 2.06
+- Add aarch64 support
+
 * Thu Dec 01 2011 Marko Saukko <marko.saukko@cybercom.com> - 2.06
 - Update to version 2.06
 - Removed lzo-2.02-configure.patch
