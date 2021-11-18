@@ -61,14 +61,3 @@
 
 * Sun May 22 2005 Jeremy Katz <katzj@redhat.com> - 1.08-4
 - rebuild on all arches
-
-* Fri Apr  7 2005 Michael Schwendt <mschwendt[AT]users.sf.net>
-- rebuilt
-
-* Sun Apr 27 2003 Dams <anvil[AT]livna.org> 0:1.08-0.fdr.2
-- Typo un devel description
-- Added post and postun scriptlets
-- Added URL in Source0
-
-* Fri Apr 25 2003 Dams <anvil[AT]livna.org>
-- Initial build.
